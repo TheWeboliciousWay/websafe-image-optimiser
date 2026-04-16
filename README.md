@@ -52,4 +52,4 @@ Since this is a static single-page application (SPA), you can host it for free o
 Your tool will be live at:
 
 ```text
-https://yourusername.github.io/your-repo-name/
+https://theweboliciousway.github.io/websafe-image-optimiser
