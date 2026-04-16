@@ -50,7 +50,7 @@
 
     <header style="text-align:center; margin-bottom: 2rem;">
         <h1>Web Safe Image Converter</h1>
-        <p>Local browser-based image processing with quality alerts.</p>
+        <h3 style="font-weight: normal">Web Safe Image Converter is a high-performance, privacy-focused web tool designed to batch-convert, resize, and smart-crop images into the WebP format. Unlike other converters, all processing happens locally in your browser — your images never touch a server.</h3>
     </header>
     
     <div class="controls">
@@ -179,8 +179,23 @@
             processBtn.disabled = false;
         });
     </script>
-    <footer>
+
+    <div>
+        <h2>🚀 Key Features</h2>
+        <ul>
+            <li style="margin-bottom:.3rem"><strong>Batch Processing:</strong> Drop dozens of images at once and convert them in seconds.</li>
+            <li style="margin-bottom:.3rem"><strong>Smart Center-Crop:</strong> Automatically scales and crops images to fit your target dimensions without "squishing" or "stretching" the subject.</li>
+            <li style="margin-bottom:.3rem"><strong>Privacy First:</strong> 100% client-side. No data is uploaded to any cloud, making it safe for sensitive or private photos.</li>
+            <li style="margin-bottom:.3rem"><strong>Metadata Stripping:</strong> Automatically strips EXIF, GPS, and other hidden "junk" data to ensure the smallest possible file size.</li>
+            <li style="margin-bottom:.3rem"><strong>ZIP Export:</strong> Bundles all optimized images into a single .zip file for easy downloading.</li>
+            <li style="margin-bottom:.3rem"><strong>Quality Alerts:</strong> Visual "Low Res" warnings appear if your original image is smaller than your target size, preventing accidental blurriness.</li>
+            <li style="margin-bottom:.3rem"><strong>Drag & Drop:</strong> Intuitive interface with native drag-and-drop support.</li>
+        </ul>
+    </div>
+
+    <footer style="text-align:center; margin-top: 2rem;">
         <p>Built with ❤️ for a faster, lighter web.</p>
+        <small>&copy; 2026 Webolicious</small>
     </footer>
 </body>
 </html>
